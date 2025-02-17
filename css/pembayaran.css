@@ -1,0 +1,38 @@
+/* Tambahkan ini ke file styles.css yang sudah ada */
+#detailPasien {
+    background-color: #f0f8ff; /* Warna biru muda */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#detailPasien p {
+    margin: 10px 0;
+}
+
+#prosesPembayaran {
+    background-color: #28a745; /* Warna hijau */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#prosesPembayaran:hover {
+    background-color: #218838;
+}
+
+#kembali {
+    background-color: #0073e6; /* Warna biru */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#kembali:hover {
+    background-color: #005bb5;
+}
