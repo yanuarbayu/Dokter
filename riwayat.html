@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riwayat Pembayaran</title>
+    <link rel="stylesheet" href="css/data.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Riwayat Pembayaran</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nama Pasien</th>
+                    <th>Nomor KTP</th>
+                    <th>Tingkat Penyakit</th>
+                    <th>Total Pembayaran</th>
+                    <th>Tanggal Pembayaran</th>
+                </tr>
+            </thead>
+            <tbody id="tabelRiwayat">
+                <!-- Data akan dimuat dari localStorage -->
+            </tbody>
+        </table>
+        <br>
+        <button id="kembali">Kembali ke Data Pasien</button>
+    </div>
+
+    <script src="js/riwayat.js"></script>
+</body>
+</html>
